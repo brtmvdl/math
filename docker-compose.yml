@@ -5,3 +5,5 @@ services:
     build: './src/app'
     ports:
       - '8080:80'
+    volumes:
+      - './src/app/html:/usr/share/nginx/html'
