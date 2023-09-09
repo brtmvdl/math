@@ -101,6 +101,7 @@ const keyboard = [
   line.map((cell) => {
     const cellEl = new Frontend()
     cellEl.setStyle('text-align', 'center')
+    cellEl.setStyle('font-size', '2em')
     cellEl.setStyle('height', '2em')
     cellEl.setStyle('width', '2em')
     cellEl.setText(cell)
