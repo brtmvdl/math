@@ -95,7 +95,8 @@ const keyboard = [
   ['1', '2', '3'],
   ['4', '5', '6'],
   ['7', '8', '9'],
-  ['<', '0', '!'],
+  ['<', '0', '>'],
+  ['-', ' ', '!'],
 ].map((line = []) => {
   const lineEl = new nFlex()
   line.map((cell) => {
@@ -109,9 +110,10 @@ const keyboard = [
       switch (true) {
         case Number.isInteger(+cell): return screen.addResultNumber(cell)
         case cell === '!': return screen.checkResult()
+        case cell === '-': return screen.addResultNumber('-')
         case cell === '<': return screen.deleteResultNumber()
+        case cell === '>': return screen.createGame()
       }
-
     })
     lineEl.append(cellEl)
   })
