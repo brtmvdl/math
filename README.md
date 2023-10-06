@@ -1,5 +1,9 @@
 # [Math](https://math-brtmvdl.surge.sh/)
 
+## social & donate
+
+[Donate](https://link.mercadopago.com.br/brtmvdl) - [Telegram](https://t.me/+KRmg5MlqgMk0MTg5) - [Discord](https://discord.gg/auCmnvV2)
+
 ## how to use
 
 Install [Docker Compose](https://docs.docker.com/compose/install/)
